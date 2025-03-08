@@ -15,7 +15,7 @@ export default function Home() {
           <div className="flex flex-col gap-3">
             <FrontCard />
             <div className="flex justify-center items-center flex-col gap-2">
-              <IconRefresh stroke={1} />
+              <IconRefresh stroke={1} className="cursor-pointer"/>
               <div className="flex gap-1 justify-center items-center">
                 <IconShieldCheckFilled stroke={2} color="green" size={15}/>
                 <p className="text-xs">Seus dados estão protegidos</p>
@@ -23,7 +23,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <button type="submit" className="w-full bg-purple-600 py-3">
+        <button type="submit" className="w-full bg-purple-600 py-3 cursor-pointer">
           Adicionar cartão
         </button>
       </div>
